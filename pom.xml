@@ -146,6 +146,7 @@
 						</goals>
 						<configuration>
 							<source>${maven.compile.source}</source>
+							<additionalparam>-Xdoclint:none</additionalparam>
 						</configuration>
 					</execution>
 				</executions>
